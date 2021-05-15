@@ -23,6 +23,9 @@ public class runnerclass {
 		obj3.add(4.6, 5.5);
 		obj3.add(3.3, 5.5, 7.7);
 		
+		methodoverridechild obj4 = new methodoverridechild();
+		obj4.display();
+		
 	}
 
 }
