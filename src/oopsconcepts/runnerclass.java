@@ -26,6 +26,28 @@ public class runnerclass {
 		methodoverridechild obj4 = new methodoverridechild();
 		obj4.display();
 		
+		abstractchild obj5 = new abstractchild();
+		obj5.method2();
+		obj5.method1();
+		
+		// ----------Interface Example ------------
+		
+		System.out.println("-----Interface Example------ ");
+		
+	    Interfacechild obj7 = new Interfacechild();
+	    obj7.method1();
+	    obj7.method2();
+	    obj7.method3();
+	    
+		
+		EncapsulationExample obj6 = new EncapsulationExample();
+		obj6.setSalary(2000);
+		obj6.setName("nisha");
+		obj6.setEmpId("01");
+	System.out.println("salary " +obj6.getSalary());
+	System.out.println("Employee Name " +obj6.getName());
+	System.out.println("Employee Id " +obj6.getEmpId());
+	}
 	}
 
-}
+
