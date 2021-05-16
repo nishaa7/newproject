@@ -14,7 +14,7 @@ public class CollectionsExample {
 		mylist.add("Adam");
 		mylist.add("Ryaan");
 		mylist.add("Sachin");
-		mylist.add("Amy");
+		mylist.add("Amaira");
 		
 		
 		
